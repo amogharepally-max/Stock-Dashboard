@@ -71,7 +71,7 @@ function MacroChart({ series, color }: { series: SeriesData; color: string }) {
             contentStyle={{ background: "#111827", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 8, fontSize: 11, fontFamily: "monospace" }}
             labelStyle={{ color: "#9ca3af" }}
             itemStyle={{ color }}
-            formatter={(v: number) => [`${v.toFixed(2)}%`, series.label]}
+            formatter={(v: unknown) => [`${(v as number).toFixed(2)}%`, series.label]}
           />
           <ReferenceLine y={latest?.value} stroke={color} strokeDasharray="4 4" strokeOpacity={0.3} />
           <Line
