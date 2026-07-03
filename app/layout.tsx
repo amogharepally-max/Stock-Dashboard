@@ -2,8 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Stock Research Terminal",
+  title: "Zenith",
   description: "Personal stock research dashboard — not investment advice",
+  icons: { icon: "/icon.svg", apple: "/icon.svg" },
+  other: {
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
+    "apple-mobile-web-app-title": "Zenith",
+  },
 };
 
 export default function RootLayout({

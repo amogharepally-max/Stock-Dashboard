@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="112" fill="#040810"/>
+  <line x1="60" y1="300" x2="452" y2="300" stroke="#0a2535" stroke-width="6"/>
+  <circle cx="256" cy="196" r="80" fill="rgba(0,212,255,0.07)"/>
+  <circle cx="256" cy="196" r="52" fill="rgba(0,212,255,0.10)"/>
+  <circle cx="256" cy="196" r="30" fill="#00d4ff"/>
+  <circle cx="256" cy="196" r="16" fill="#ffffff"/>
+  <line x1="256" y1="60" x2="256" y2="110" stroke="#00d4ff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="358" y1="94" x2="322" y2="130" stroke="#00d4ff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="392" y1="196" x2="342" y2="196" stroke="#00d4ff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="154" y1="94" x2="190" y2="130" stroke="#00d4ff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="120" y1="196" x2="170" y2="196" stroke="#00d4ff" stroke-width="14" stroke-linecap="round"/>
+  <line x1="330" y1="286" x2="300" y2="256" stroke="#00ffa3" stroke-width="10" stroke-linecap="round"/>
+  <line x1="182" y1="286" x2="212" y2="256" stroke="#00ffa3" stroke-width="10" stroke-linecap="round"/>
+  <line x1="256" y1="300" x2="256" y2="360" stroke="#00d4ff" stroke-width="8" stroke-linecap="round" opacity="0.2"/>
+  <line x1="256" y1="300" x2="188" y2="340" stroke="#00d4ff" stroke-width="6" stroke-linecap="round" opacity="0.12"/>
+  <line x1="256" y1="300" x2="324" y2="340" stroke="#00d4ff" stroke-width="6" stroke-linecap="round" opacity="0.12"/>
+  <text x="256" y="460" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="20">ZENITH</text>
+</svg>
