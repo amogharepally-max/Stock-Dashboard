@@ -182,7 +182,7 @@ export default function Home() {
                 onClick={() => { setBottomTab("markets"); setActiveSector(sectors[0]?.id ?? null); }}
                 className="rounded-xl border border-white/10 bg-gray-900/60 p-4 text-left hover:border-cyan-500/30 transition-all active:scale-95"
               >
-                <Home size={18} className="text-cyan-400 mb-2" />
+                <House size={18} className="text-cyan-400 mb-2" />
                 <div className="text-xs font-bold text-white mb-0.5">Watchlist</div>
                 <div className="text-[10px] text-gray-500">Top picks by sector</div>
               </button>
