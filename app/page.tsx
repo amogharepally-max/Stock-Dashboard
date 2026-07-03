@@ -30,7 +30,7 @@ const ZenithLogo = () => (
 
 type BottomTab = "home" | "markets" | "advisor" | "macro";
 
-export default function Home() {
+export default function Dashboard() {
   const [sectors, setSectors] = useState<Sector[]>([]);
   const [bottomTab, setBottomTab] = useState<BottomTab>("home");
   const [activeSector, setActiveSector] = useState<string | null>(null);
