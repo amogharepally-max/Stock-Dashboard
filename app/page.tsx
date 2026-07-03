@@ -235,7 +235,6 @@ export default function Dashboard() {
                     ) : (
                       <button
                         onClick={() => setActiveSector(s.id)}
-                        onLongPress={() => { setEditingSector(s.id); setEditName(s.label); }}
                         className={`text-[11px] font-mono px-3 py-1.5 rounded-full border transition-all whitespace-nowrap ${
                           activeSector === s.id
                             ? "bg-cyan-500/20 border-cyan-500/50 text-cyan-400"
