@@ -5,7 +5,7 @@ import { DEFAULT_SECTORS } from "@/lib/defaultSectors";
 import SectorPanel from "@/components/SectorPanel";
 import MacroPanel from "@/components/MacroPanel";
 import WealthManager from "@/components/WealthManager";
-import { Plus, X, Edit2, Check, RefreshCw, Home, BarChart2, Briefcase, Activity, ChevronRight } from "lucide-react";
+import { Plus, X, Edit2, Check, RefreshCw, House, BarChart2, Briefcase, Activity, ChevronRight } from "lucide-react";
 
 const STORAGE_KEY = "stock-dashboard-sectors";
 const REFRESH_INTERVAL = 3 * 60 * 1000;
@@ -318,7 +318,7 @@ export default function Home() {
       <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/5 bg-[#030712]/95 backdrop-blur-xl">
         <div className="flex items-center justify-around px-2 py-2 pb-safe">
           {([
-            { id: "home", icon: Home, label: "Home" },
+            { id: "home", icon: House, label: "Home" },
             { id: "markets", icon: BarChart2, label: "Markets" },
             { id: "advisor", icon: Briefcase, label: "Advisor" },
             { id: "macro", icon: Activity, label: "Macro" },
